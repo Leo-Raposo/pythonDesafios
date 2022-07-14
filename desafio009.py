@@ -1,0 +1,22 @@
+t = int(input('Digite um número inteiro: '))
+t1 = t * 1
+t2 = t * 2
+t3 = t * 3
+t4 = t * 4
+t5 = t * 5
+t6 = t * 6
+t7 = t * 7
+t8 = t * 8
+t9 = t * 9
+t10 = t * 10
+print(f'A tabuada de {t} é:\n'
+      f'{t} * 1 = {t1}\n'
+      f'{t} * 2 = {t2}\n'
+      f'{t} * 3 = {t3}\n'
+      f'{t} * 4 = {t4}\n'
+      f'{t} * 5 = {t5}\n'
+      f'{t} * 6 = {t6}\n'
+      f'{t} * 7 = {t7}\n'
+      f'{t} * 8 = {t8}\n'
+      f'{t} * 9 = {t9}\n'
+      f'{t} * 10 = {t10}')
