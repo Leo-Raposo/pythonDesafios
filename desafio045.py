@@ -1,7 +1,8 @@
 from random import randint
 from time import sleep
+
 print('VAMOS JOGAR JOKENPÔ? FAÇA SUA ESCOLHA!!!')
-itens = ('PEDRA', 'PAPEL', 'TESOURA')
+itens = ('PEDRA \U0001F44A', 'PAPEL \U0001F590', 'TESOURA \U0000270C')
 pc = randint(0, 2)
 print("""[ 0 ] Pedra
 [ 1 ] Papel
@@ -11,11 +12,11 @@ while (True):
     if eu >= 3:
         print('\033[1:31:40mJOGADA INVÁLIDA! TENTE NOVAMENTE!\033[m')
     else:
-        print('\033[1:31:40mJO\033[m')
+        print('\033[1:31:40mJO\033[m \U0001F44A')
         sleep(1)
-        print('\033[1:33:40mKEN\33[m')
+        print('\033[1:33:40mKEN\33[m \U0001F590')
         sleep(1)
-        print('\033[1:35:40mPÔ!!!\033[m')
+        print('\033[1:35:40mPÔ!!!\033[m \U0000270C')
         sleep(0.5)
         print('*~' * 12)
         print(f'Computador jogou {itens[pc]}')
